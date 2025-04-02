@@ -14,24 +14,23 @@
 
 
             <div class="entrada">
-                <label for="valor">Digite o valor em wons</label>
-                <input type="text">
+                <input type="number" id="valor" placeholder="Digite o valor em wons">
             </div>
 
             <div class="escolha">
-                <button id="real">Real R$</button>
-                <button id="dolar">Dolar $</button>
-                <button id="euro">Euro €</button>
+                <button onclick="converter('real')">Real R$</button>
+                <button onclick="converter('dolar')">Dolar $</button>
+                <button onclick="converter('euro')">Euro €</button>
             </div>
 
-            <div class="saida">
-                <p>
+            <div class="saida" >
+                <p id="resultado">
                     
                 </p>
             </div>
         </div>
 
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
