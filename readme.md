@@ -1,0 +1,1 @@
+Esse repositório é uma iniciativa do imersão dev da Alura, são projetos simples que visam o foco no desenvimento do frontend.
