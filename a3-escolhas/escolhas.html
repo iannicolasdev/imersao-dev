@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../estilos/style-base.css" />
+  <title>Jogo do Piso</title>
+</head>
+<body>
+  <div class="container">
+    <div class="box jogo">
+      <h2>Escape do Piso Quebrado!</h2>
+
+      <div class="botoes">
+        <button class="btn" onclick="escolher(1)">1</button>
+        <button class="btn" onclick="escolher(2)">2</button>
+        <button class="btn" onclick="escolher(3)">3</button>
+      </div>
+
+      <div class="resultado">
+        <p id="resultado">Faça sua escolha para começar o jogo.</p>
+        <button class="btn-reiniciar" onclick="reiniciarJogo()">Reiniciar</button>
+      </div>      
+
+    </div>
+  </div>
+
+  <script src="escolhas.js"></script>
+</body>
+</html>
