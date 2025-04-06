@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="../style-base.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="content box">
+      <h2>Jokenpô</h2>
+
+      <div class="jogo">
+        <div class="opcoes">
+          <button class="jokenpo-btn" onclick="jogar('pedra')">
+            <img src="https://images.emojiterra.com/twitter/v13.1/512px/270a.png" alt="pedra">
+          </button>
+          <button class="jokenpo-btn" onclick="jogar('papel')">
+            <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f91a.png" alt="papel">
+          </button>
+          <button class="jokenpo-btn" onclick="jogar('tesoura')">
+            <img src="https://images.emojiterra.com/twitter/v13.1/512px/270c.png" alt="tesoura">
+          </button>
+        </div>
+
+        <div class="resultado">
+          <p id="resultado"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="jokenpo.js"></script>
+</body>
+</html>

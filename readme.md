@@ -5,9 +5,9 @@
 Esta iniciativa faz parte do meu processo de evolução como desenvolvedor front-end, com foco em aprender de forma prática e contínua.
 Cada projeto tem como objetivo reforçar os conhecimentos em:
 
--Estruturação de páginas com HTML
--Estilização com CSS
--Lógica e interatividade com JavaScript
+- Estruturação de páginas com HTML
+- Estilização com CSS
+- Lógica e interatividade com JavaScript
 
 ## Estrutura dos projetos
 
