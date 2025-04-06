@@ -70,9 +70,10 @@ body {
   font-size: 18px;
   color: #333;
   text-align: center;
+  max-width: 300px;
 }
 
-/* referente ao 2° projeto */
+/* está presente no 2° projeto */
 .jogo {
   display: flex;
   flex-direction: column;
@@ -102,9 +103,21 @@ body {
   transform: scale(1.1);
 }
 
-.resultado p {
-  font-size: 18px;
-  color: #333;
+/* está presente no 3° projeto */
+.btn-reiniciar {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 16px;
+  width: 100%;
+  max-width: 100px;
   text-align: center;
-  max-width: 300px;
+  margin-top: 20px;
+}
+
+.btn-reiniciar:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
