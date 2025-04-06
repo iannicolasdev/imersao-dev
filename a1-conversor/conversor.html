@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="conversor.css">
+    <link rel="stylesheet" href="../style-base.css">
     <title>Conversor de Moedas</title>
 </head>
 <body>
 
     <div class="container">
-        <div class="content">
-            <h2>Bem vindo ao conversor de moedas</h2>
+        <div class="content box">
+            <h2>Conversor de Moedas</h2>
 
-
-            <div class="entrada">
+            <div class="entrada input">
                 <input type="number" id="valor" placeholder="Digite o valor em wons">
             </div>
 
-            <div class="escolha">
-                <button onclick="converter('real')">Real R$</button>
-                <button onclick="converter('dolar')">Dolar $</button>
-                <button onclick="converter('euro')">Euro €</button>
+            <div class="botoes">
+                <button class="btn" onclick="converter('real')">Real R$</button>
+                <button class="btn" onclick="converter('dolar')">Dólar $</button>
+                <button class="btn" onclick="converter('euro')">Euro €</button>
             </div>
 
-            <div class="saida" >
-                <p id="resultado">
-                    
-                </p>
-            </div>
+            <div class="resultado">
+                <p id="resultado"> </p>
+            </div>   
         </div>
-
     </div>
+
     <script src="conversor.js"></script>
 </body>
 </html>

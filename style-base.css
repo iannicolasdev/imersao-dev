@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* estrutura principal */
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  width: 100%;
+  align-items: center;
+}
+
+/* input */
+.input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* botões */
+.botoes {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn {
+  flex: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* resultado */
+.resultado p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+/* referente ao 2° projeto */
+.jogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.opcoes {
+  display: flex;
+  gap: 20px;
+}
+
+.jokenpo-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.jokenpo-btn img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.jokenpo-btn:hover {
+  transform: scale(1.1);
+}
+
+.resultado p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  max-width: 300px;
+}
