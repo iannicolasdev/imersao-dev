@@ -121,3 +121,17 @@ body {
 .btn-reiniciar:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+/* está presente no 4° projeto */
+.escolha-personagens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.selecionado {
+  box-shadow: 0 0 15px 5px #cc66ff; 
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}

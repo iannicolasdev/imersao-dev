@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Escolha de Personagens</title>
+  <link rel="stylesheet" href="../estilos/style-base.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="box">
+      <h2>Escolha 3 personagens</h2>
+      <div class="botoes escolha-personagens">
+        <button id="mago" class="btn" onclick="selecionarPersonagem('Mago')">Mago</button>
+        <button id="guardiao" class="btn" onclick="selecionarPersonagem('Guardião')">Guardião</button>
+        <button id="guerreiro" class="btn" onclick="selecionarPersonagem('Guerreiro')">Guerreiro</button>
+        <button id="arqueiro" class="btn" onclick="selecionarPersonagem('Arqueiro')">Arqueiro</button>
+        <button id="cavaleiro" class="btn" onclick="selecionarPersonagem('Cavaleiro')">Cavaleiro</button>
+        <button id="bardo" class="btn" onclick="selecionarPersonagem('Bardo')">Bardo</button>        
+      </div>
+      <button class="btn" onclick="confirmarEscolhas()">Confirmar Equipe</button>
+
+      <div class="resultado">
+        <p id="resultado">Você deve escolher 3 personagens para enfrentar o computador!</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="disputa.js"></script>
+</body>
+</html>
